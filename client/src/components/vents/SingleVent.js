@@ -5,6 +5,8 @@ import EditVentForm from './EditVentForm';
 class SingleVent extends Component {
     state = {
         vent: {
+            author: '',
+            body: '',
             comments: [{}]
         }
     }

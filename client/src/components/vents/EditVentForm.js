@@ -10,15 +10,16 @@ class EditVentForm extends Component {
     }
 
     handleChange = (event) => {
-        const newState = { ...this.state.user }
+        const newState = { ...this.state.vent }
         newState[event.target.name] = event.target.value
-        this.setState({ user: newState })
+        this.setState({ vent: newState })
     }
 
     handleSubmit = (event) => {
         event.preventDefault()
         const payload = this.state.vent
         const ventId = this.props.ventId
+        console.log(ventId)
         axios.patch(`/api/vents/${ventId}`, payload)
         .then((res) => {
             this.props.getSingleVent()
@@ -40,7 +41,7 @@ class EditVentForm extends Component {
                     <div>
                         <input type="text"
                         placeholder="Update Story"
-                        value={this.state.user.body}
+                        value={this.state.vent.body}
                         onChange={this.handleChange}
                         name="body"/>
                     </div>
