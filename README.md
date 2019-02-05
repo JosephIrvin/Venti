@@ -3,8 +3,7 @@ VENTI
 ======
 ### Project: Coffee House themed way to vent your problems and share your wins
 
-### Heroku Link: [Heroku App](https://ancient-fjord-19531.herokuapp.com/)  (currently broken)
-
+### Live Demo: [Heroku App](https://pure-badlands-83812.herokuapp.com/)
 
 ### Trello Board: [Trello](https://trello.com/b/D8DpYUyR/venti)
 
@@ -18,10 +17,7 @@ Create an app that allows you to log on and give a short summary of your day to 
 ======
 ### Wireframes:
 
-![Wireframe](https://i.imgur.com/FdqRSDl.png)
+![Wireframe](https://imgur.com/a/PzDESr5)
 
 
-### ERD: 
-
-![ERD](https://i.imgur.com/5N0iVaC.png)
 
