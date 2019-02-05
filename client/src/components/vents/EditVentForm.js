@@ -38,14 +38,14 @@ class EditVentForm extends Component {
                         onChange={this.handleChange}
                         />
                     </div>
-                    <div>
+                    {/* <div>
                         <input type="text"
                         placeholder="Update Story"
                         value={this.state.vent.body}
                         onChange={this.handleChange}
                         name="body"/>
-                    </div>
-                    <button>Edit Vent</button>
+                    </div> */}
+                    <button>Edit Mood</button>
                 </form>
             </div>
         );

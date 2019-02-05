@@ -3,19 +3,19 @@ const Comment = require('../models/Comment')
 const mongoose = require('mongoose')
 
 const comment1 = new Comment({
-    author: "xqc",
-    body: "My head is big too, dont worry it gets better.... headass, jk"
+    author: "ventiguy4",
+    body: "That really sucks! Wishing the best for you"
 })
 
 const comment2 = new Comment({
-    author: "summits hat",
-    body: "you have to get help, I can't stretch any farther headass bitch"
+    author: "Mark",
+    body: "Same thing happened to me amy, there are plenty of opportunities"
 })
 
 const vent1 = new Vent({
-    author: "summit1g",
+    author: "Amy",
     mood: "Annoyed",
-    body: "People keep calling my head big, and it makes me sad :(",
+    body: "I just got fired from work today",
     comments: [comment1, comment2]
 })
 

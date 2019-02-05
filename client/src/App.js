@@ -8,7 +8,7 @@ import SingleVent from './components/vents/SingleVent'
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="scale scroll" >
       <Router>
         <Switch>
           <Route exact path="/" component={HomePage} />

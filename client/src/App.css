@@ -2,31 +2,115 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+
+.homePageBG{
+  background-image: url('https://images.unsplash.com/photo-1512805147242-c3e79caf64bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.bodyHeight {
+ 
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+
+    
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+    
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+}
+
+
+.scale{
+
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+    height: auto;
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.ventiFont{
+  font-family: din-condensed, sans-serif;
+font-style: normal;
+font-weight: 300;
+color: white;
+font-size: 10em;
+text-shadow: 8px 8px 8px black;
+/* margin-top: -10%; */
+}
+
+.ventListTitle{
+  margin-top: 10px;
+}
+
+.whiteText{
+  color: white;
+}
+
+.whiteText2{
+  color: white;
+  text-shadow: 0px 0px 5px black;
+}
+
+.singleVentBG{
+  background-image: url("https://images.unsplash.com/photo-1513003604845-103fe8aaf4e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ventiFont2{
+  font-family: din-condensed, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: white;
+  font-size: 4em;
+  text-shadow: 8px 8px 8px black;
+  /* margin-top: -1%; */
+}
+
+.homeText{
+  position: absolute;
+}
+
+.homeContain{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+
 }
 
-.App-link {
-  color: #61dafb;
+.homeImg{
+  height: 200px;
+  width: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ventListBG{
+  background-image: url('https://images.unsplash.com/photo-1516813127689-b75da14cce70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1374&q=80');
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scroll{
+  overflow-y:auto
 }

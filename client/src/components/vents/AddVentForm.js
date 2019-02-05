@@ -11,9 +11,9 @@ class AddVentForm extends Component {
     }
 
     handleChange = (event) => {
-        const newState = {...this.state.user}
+        const newState = {...this.state.vent}
         newState[event.target.name] = event.target.value
-        this.setState({ user: newState})
+        this.setState({ vent: newState})
     }
 
     handleSubmit = (event) => {
