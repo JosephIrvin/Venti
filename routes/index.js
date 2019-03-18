@@ -16,4 +16,5 @@ router.delete('/comments/:commentId', commentController.delete)
 router.patch('/comments/:commentId', commentController.update)
 router.post('/vents/:ventId/comments', commentController.create)
 
+
 module.exports = router

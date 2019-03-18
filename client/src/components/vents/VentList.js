@@ -3,6 +3,7 @@ import axios from 'axios'
 import { Link } from 'react-router-dom'
 import AddVentForm from './AddVentForm'
 import '../../App.css'
+import NavBar from '../NavBar';
 class VentList extends Component {
 
     state = {
@@ -32,9 +33,10 @@ class VentList extends Component {
 
     render() {
         return (
-            <div className="uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle uk-flex-column ventListBG" >
-                 <h1 className="ventiFont"> Vents </h1>
-                <button onClick={this.toggleAddVentForm}>Create New Vent</button>
+            <div className="ventListBG align-middle d-flex flex-column align-items-center align-self-center justify-content-center" >
+                <NavBar/>
+                 <h1 className="ventiFont">Speak your mind</h1>
+                <button onClick={this.toggleAddVentForm} type="button" className="btn-light">Create New Vent</button>
                 {this.state.addVentFormVisible ? <AddVentForm getAllVents={this.getAllVents} toggleAddVentForm={this.toggleAddVentForm}/> : null}
 
                 

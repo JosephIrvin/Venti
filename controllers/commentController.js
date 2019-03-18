@@ -12,8 +12,8 @@ const commentController = {
     show: (req, res) => {
         var commentId = req.params.commentId
         Comment.findById(commentId)
-            .then((idea) => {
-                res.send(idea)
+            .then((comment) => {
+                res.send(comment)
             })
     },
     delete: (req, res) => {
