@@ -129,7 +129,7 @@ text-shadow: 8px 8px 8px black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 5%;
+  padding-top: 10%;
  }
 
  .storetextbg{
@@ -151,6 +151,12 @@ text-shadow: 8px 8px 8px black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+ }
+
+ #map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
  }
 
  
