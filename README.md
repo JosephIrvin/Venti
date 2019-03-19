@@ -1,5 +1,7 @@
 ======
+
 VENTI
+
 ======
 ### Project: Coffee House themed way to vent your problems and share your wins
 
@@ -18,6 +20,7 @@ VENTI
 * UIKit
 * styled-components
 * Google Maps API
+
 ======
 ### Goals:
 

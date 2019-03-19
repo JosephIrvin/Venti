@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from '../NavBar';
 import axios from 'axios'
+import AddCouponForm from './AddCouponForm';
 
 class Coupons extends Component {
 
@@ -38,6 +39,11 @@ class Coupons extends Component {
                                 </div>
                             </div>
                         ))}
+                        <div className="fixed-bottom">
+                        <AddCouponForm
+                        getAllCoupons={this.getAllCoupons}
+                        />
+                        </div>
 
                 </div>
         );
